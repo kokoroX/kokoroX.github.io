@@ -12,14 +12,15 @@
 1$ ruby -e &quot;$(curl -fsSL">
 <meta property="og:type" content="article">
 <meta property="og:title" content="mac 10.10.5 下nginx+php的配置">
-<meta property="og:url" content="http://transformtime.com/2015/09/26/mac下nginx-php的配置/index.html">
+<meta property="og:url" content="http://kokorosblog.com/2015/09/26/mac下nginx-php的配置/index.html">
 <meta property="og:site_name" content="kokoro's blog">
 <meta property="og:description" content="捣腾mac的php运行环境浪费了一天时间 所以打算整理一下 以便以后自己要是再有需求不用像这次这么折腾..
 安装homebrew
 参考别人安装nginx文章的时候发现这个东西。是个类似ubuntu的apt-get和nodejs里的npm命令的管理工具,可以让你安装各种软件的时候爽一点。。
 下面是安装的命令,需要ruby环境 mac里默认是已安装的:
 1$ ruby -e &quot;$(curl -fsSL">
-<meta property="og:updated_time" content="2015-09-26T17:11:49.000Z">
+<meta property="og:image" content="http://7xk1zf.com1.z0.glb.clouddn.com/blognginx+php.png">
+<meta property="og:updated_time" content="2015-09-27T03:29:07.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="mac 10.10.5 下nginx+php的配置">
 <meta name="twitter:description" content="捣腾mac的php运行环境浪费了一天时间 所以打算整理一下 以便以后自己要是再有需求不用像这次这么折腾..
@@ -75,7 +76,7 @@
           <div id="search-form-wrap">
               
   <!-- google搜索结束 -->
-  <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://transformtime.com"></form>
+  <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://kokorosblog.com"></form>
   <!-- google搜索结束 -->
 
           </div>
@@ -150,11 +151,12 @@
 <h2 id="测试nginx服务">测试nginx服务</h2><hr>
 <p>在你所配置的nginx配置文件的root项所写路径下随便创建测试文件index.php 内容可自行填写<br>启动nginx服务，sudo nginx；<br>修改配置文件，重启nginx服务，sudo nginx -s reload<br>启动php服务，sudo php-fpm；<br>在浏览器地址栏中输入localhost:8080，如果配置正确地话，应该能看到PHP输出的页面。</p>
 <h2 id="参考资料">参考资料</h2><hr>
-<ul>
+<ol>
 <li><a href="http://my.oschina.net/chen0dgax/blog/190161#OSC_h2_3" target="_blank" rel="external">Mac OSX 10.9搭建nginx+mysql+php-fpm环境</a></li>
 <li><a href="http://www.ha97.com/5194.html" target="_blank" rel="external">（总结）Nginx配置文件nginx.conf中文详解</a></li>
-</ul>
-<p>比较懒 mysql的配置等下次用到再补上。。</p>
+</ol>
+<p>最后配一张配置成功的图</p>
+<p><img src="http://7xk1zf.com1.z0.glb.clouddn.com/blognginx+php.png" alt="配置成功"><br>比较懒 mysql的配置等下次用到再补上。。</p>
 
           
       
@@ -182,7 +184,7 @@
         </div>
       
       <div class='article-subfooter'>
-        <a data-url="http://transformtime.com/2015/09/26/mac下nginx-php的配置/" data-id="cif1cn4ay0003z66di1g7crzw" data-title="mac 10.10.5 下nginx+php的配置" class="article-share-link">Share</a>
+        <a data-url="http://kokorosblog.com/2015/09/26/mac下nginx-php的配置/" data-id="cif1y5jyg00038y6dl54lpru5" data-title="mac 10.10.5 下nginx+php的配置" class="article-share-link">Share</a>
         
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/nginx/">nginx</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/php/">php</a></li></ul>
 
@@ -218,7 +220,7 @@
   
 
   <section id='duoshuo-comments'>
-    <div class="ds-thread" data-thread-key="2015/09/26/mac下nginx-php的配置/" data-title="mac 10.10.5 下nginx+php的配置" data-url="http://transformtime.com/2015/09/26/mac下nginx-php的配置/">
+    <div class="ds-thread" data-thread-key="2015/09/26/mac下nginx-php的配置/" data-title="mac 10.10.5 下nginx+php的配置" data-url="http://kokorosblog.com/2015/09/26/mac下nginx-php的配置/">
     <script type="text/javascript">
       var duoshuoQuery = {short_name:"kokoro"};
       (function() {
